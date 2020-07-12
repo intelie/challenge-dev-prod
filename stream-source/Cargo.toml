@@ -1,0 +1,7 @@
+[package]
+name = "stream-source"
+version = "0.1.0"
+authors = ["Leomar Silva <leomar.silva@intelie.com.br>"]
+edition = "2018"
+
+[dependencies]
