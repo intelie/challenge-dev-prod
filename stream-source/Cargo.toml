@@ -1,7 +1,17 @@
 [package]
 name = "str-source"
+default-run = "str-source"
 version = "0.1.0"
 authors = ["Leomar Silva <leomar.silva@intelie.com.br>"]
 edition = "2018"
 
+[[bin]]
+name = "str-source"
+path = "src/main.rs"
+
+[[bin]]
+name = "cache"
+path = "src/cache.rs"
+
 [dependencies]
+tokio = { version = "0.2", features = ["full"] }
