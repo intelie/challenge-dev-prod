@@ -1,5 +1,5 @@
 [package]
-name = "stream-source"
+name = "str-source"
 version = "0.1.0"
 authors = ["Leomar Silva <leomar.silva@intelie.com.br>"]
 edition = "2018"
